@@ -64,12 +64,6 @@ git clone https://github.com/mohbakr224/CRUDS_Website.git
 
 ---
 
-## 📸 Screenshots
-
-*(Add screenshots here if available)*
-
----
-
 ## 🎯 Purpose
 
 This project is built for:
