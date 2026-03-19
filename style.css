@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #490404;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: 'Courier New';
+}
+.cruds{
+    margin: auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.price{
+display: flex;
+justify-content: space-between;
+}
+.price input{
+    margin: 0 2px;
+    padding: auto;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+small{
+    background-color: red;
+    width: 50%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+small::before{
+    content: 'Total: ';
+    font-weight: bold;
+}
+input:focus{
+    border: 1px solid #490404;
+    transform: scale(1.05);
+}
+.search_buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td { 
+    word-break: break-all;
+    padding: 8px;
+}
+th {
+    background-color: #490404;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
